@@ -23,7 +23,8 @@ void ContourDetector::Init(const ContourDetectParams& params) {
     img_counter_ = 0;
     odom_node_ptr_ = NULL;
     refined_contours_.clear(), refined_hierarchy_.clear();
-    DIST_LIMIT = cd_params_.kRatio * 1.5f;
+    // DIST_LIMIT = cd_params_.kRatio * 1.5f;
+    DIST_LIMIT = cd_params_.kRatio * 2.0f;
     ALIGN_ANGLE_COS = cos(FARUtil::kAcceptAlign / 2.0f);
     VOXEL_DIM_INV = 1.0f / cd_params_.voxel_dim;
 }
