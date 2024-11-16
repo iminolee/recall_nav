@@ -1,0 +1,10 @@
+[submodule "src/livox_ros_driver"]
+	path = src/livox_ros_driver
+	url = https://github.com/Livox-SDK/livox_ros_driver.git
+[submodule "src/ouster-ros/ouster-sdk"]
+	path = src/ouster-ros/ouster-sdk
+	url = https://github.com/ouster-lidar/ouster-sdk.git
+[submodule "src/go1_control/unitree_legged_sdk"]
+	path = src/go1_control/unitree_legged_sdk
+	url = https://github.com/unitreerobotics/unitree_legged_sdk.git
+	branch = go1
